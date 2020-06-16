@@ -1,0 +1,30 @@
+$font-weights: (
+  "regular": 400,
+  "bold": 600
+);
+
+$line-height: (
+  "title": 1.2,
+  "sub": 1.7
+);
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: map-get($font-weights, regular);
+  font-size: 18px;
+  text-align: center;
+}
+
+.title {
+  line-height: map-get($line-height, title);
+}
+
+.title--header {
+  font-size: 1.7em;
+}
+
+.subtitle {
+  line-height: map-get($line-height, sub);
+  color: $neutral-two;
+  font-size: 0.9em;
+}
