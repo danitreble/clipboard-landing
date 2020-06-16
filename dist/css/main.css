@@ -47,6 +47,10 @@ body {
   padding: 0 22px 50px;
 }
 
+.snippets {
+  margin-bottom: 195px;
+}
+
 .title--main {
   padding: 0 35px 10px;
 }
@@ -65,25 +69,82 @@ body {
   margin: 0 auto 50px;
 }
 
+.icon {
+  margin-bottom: 50px;
+}
+
+.partners {
+  margin: 50px 0 100px;
+}
+
+.partner-logo {
+  margin: 40px 0;
+}
+
+.download {
+  margin-bottom: 170px;
+}
+
+.clipboard {
+  margin-bottom: 100px;
+}
+
+.footer {
+  background-color: #f5f6f8;
+  background-size: auto;
+}
+
+.footer__logo-container {
+  width: 100%;
+}
+
+.footer__logo {
+  width: 55px;
+  margin: 50px 0;
+}
+
+.footer__links {
+  margin-bottom: 25px;
+  font-size: 0.9em;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 0 50px;
+  width: 35%;
+  font-size: 1.2em;
+  color: #4c545d;
+}
+
 .button {
   display: block;
   margin: 0 auto 25px;
   width: 310px;
   height: 55px;
-  border-radius: 50px;
   font-family: inherit;
   font-size: 0.9em;
   color: white;
+  border-radius: 50px;
   border: none;
 }
 
 .button--ios {
   background-color: #26baa4;
   border-bottom: 3px solid #219f8a;
+  -webkit-box-shadow: 0px 2px 20px rgba(38, 186, 164, 0.6);
+          box-shadow: 0px 2px 20px rgba(38, 186, 164, 0.6);
 }
 
 .button--mac {
   background-color: #6173ff;
   border-bottom: 3px solid #4f62da;
+  -webkit-box-shadow: 0px 2px 20px rgba(97, 115, 255, 0.6);
+          box-shadow: 0px 2px 20px rgba(97, 115, 255, 0.6);
 }
 /*# sourceMappingURL=main.css.map */
