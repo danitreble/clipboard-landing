@@ -25,6 +25,7 @@ body {
 .header {
   background-image: url("/dist/images/bg-header-mobile.png");
   background-size: cover;
+  margin-bottom: 150px;
 }
 
 .header__logo-container {
@@ -38,12 +39,30 @@ body {
 }
 
 .title--header {
-  padding: 0 35px 25px;
+  padding: 0 25px 25px;
   font-size: 1.7em;
 }
 
 .subtitle--header {
+  padding: 0 22px 50px;
+}
+
+.title--main {
+  padding: 0 35px 10px;
+}
+
+.subtitle--main {
   padding: 0 25px 50px;
+}
+
+.main__image-container {
+  width: 100%;
+}
+
+.main__image {
+  display: block;
+  width: 80%;
+  margin: 0 auto 50px;
 }
 
 .button {

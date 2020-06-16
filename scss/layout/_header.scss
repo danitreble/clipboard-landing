@@ -2,6 +2,8 @@
   background-image: url("/dist/images/bg-header-mobile.png");
   background-size: cover;
 
+  margin-bottom: 150px;
+
   &__logo-container{
     width: 100%;
   }
@@ -14,10 +16,10 @@
 }
 
 .title--header {
-  padding: 0 35px 25px;
+  padding: 0 25px 25px;
   font-size: 1.7em;
 }
 
 .subtitle--header {
-  padding: 0 25px 50px;
+  padding: 0 22px 50px;
 }
