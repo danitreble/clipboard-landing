@@ -1,0 +1,25 @@
+.button {
+  display: block;
+  margin: 0 auto 25px;
+
+  width: 310px;
+  height: 55px;
+
+  border-radius: 50px;
+
+  font-family: inherit;
+  font-size: 0.9em;
+  color: white;
+
+  border: none;
+
+  &--ios {
+    background-color: $primary-one;
+    border-bottom: 3px solid $primary-one-dark;
+  }
+
+  &--mac {
+    background-color: $primary-two;
+    border-bottom: 3px solid $primary-two-dark;
+  }
+}

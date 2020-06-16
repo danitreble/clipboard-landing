@@ -19,10 +19,6 @@ body {
   line-height: map-get($line-height, title);
 }
 
-.title--header {
-  font-size: 1.7em;
-}
-
 .subtitle {
   line-height: map-get($line-height, sub);
   color: $neutral-two;

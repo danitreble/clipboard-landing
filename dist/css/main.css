@@ -16,10 +16,6 @@ body {
   line-height: 1.2;
 }
 
-.title--header {
-  font-size: 1.7em;
-}
-
 .subtitle {
   line-height: 1.7;
   color: #9fabb2;
@@ -43,9 +39,32 @@ body {
 
 .title--header {
   padding: 0 35px 25px;
+  font-size: 1.7em;
 }
 
 .subtitle--header {
   padding: 0 25px 50px;
+}
+
+.button {
+  display: block;
+  margin: 0 auto 25px;
+  width: 310px;
+  height: 55px;
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 0.9em;
+  color: white;
+  border: none;
+}
+
+.button--ios {
+  background-color: #26baa4;
+  border-bottom: 3px solid #219f8a;
+}
+
+.button--mac {
+  background-color: #6173ff;
+  border-bottom: 3px solid #4f62da;
 }
 /*# sourceMappingURL=main.css.map */
