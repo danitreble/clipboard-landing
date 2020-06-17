@@ -1,0 +1,43 @@
+.title--header {
+  padding: 0 25px 25px;
+  font-size: 1.7em;
+}
+
+.subtitle--header {
+  padding: 0 22px 50px;
+
+  @media only screen and (min-width: $desktop-view) {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.title--main {
+  padding: 0 35px 10px;
+}
+
+.subtitle--main {
+  padding: 0 25px 50px;
+
+  @media only screen and (min-width: $desktop-view) {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: $desktop-view) {
+  .title--desktop-snippet {
+    padding: 0 0 10px;
+  }
+
+  .subtitle--desktop-snippet {
+    margin: 0 0 40px;
+    padding: 0 0 10px;
+    width: 60%;
+  }
+  
+  .subtitle--desktop-tools {
+    width: 80%;
+    padding: 0;
+  }
+}

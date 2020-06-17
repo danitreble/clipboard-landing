@@ -12,6 +12,8 @@
   border-radius: 50px;
   border: none;
 
+  cursor: pointer;
+
   &--ios {
     background-color: $primary-one;
     border-bottom: 3px solid $primary-one-dark;

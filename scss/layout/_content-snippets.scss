@@ -2,19 +2,6 @@
   margin-bottom: 195px;
 }
 
-.title--main {
-  padding: 0 35px 10px;
-}
-
-.subtitle--main {
-  padding: 0 25px 50px;
-
-  @media only screen and (min-width: $desktop-view) {
-    width: 50%;
-    margin: 0 auto;
-  }
-}
-
 .main {
     &__image-container {
     width: 100%;
@@ -39,16 +26,6 @@
     align-items: flex-start;
     text-align: left;
     margin-left: 80px;
-  }
-
-  .title--desktop-snippet {
-    padding: 0 0 10px;
-  }
-
-  .subtitle--desktop-snippet {
-    margin: 0 0 40px;
-    padding: 0 0 10px;
-    width: 60%;
   }
 
   .image-container--snippet {

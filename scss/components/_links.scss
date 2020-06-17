@@ -1,0 +1,15 @@
+.footer__links {
+    margin-bottom: 25px;
+    font-size: 0.9em;
+    list-style: none;
+    cursor: pointer;
+    transition: color 100ms;
+
+    @media only screen and (min-width: $desktop-view) {
+      width: 33%;
+    }
+
+    &:hover {
+      color: $primary-one;
+    }
+  }

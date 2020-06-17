@@ -1,0 +1,31 @@
+.social-media {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  padding: 25px 0 50px;
+  width: 35%;
+  
+  font-size: 1.2em;
+  color: $neutral-one;
+
+  cursor: pointer;
+
+  @media only screen and (min-width: $desktop-view) {
+    width: 33%;
+    justify-content: center;
+    margin: 0;
+    padding: 25px 0;
+  }
+}
+
+@media only screen and (min-width: $desktop-view) {
+  .fab {
+    margin: auto 10px;
+    transition: color 100ms;
+    
+    &:hover {
+      color: $primary-one;
+    }
+  }
+}

@@ -15,39 +15,10 @@
     margin: 50px 0;
   }
 
-  &__links {
-    margin-bottom: 25px;
-    font-size: 0.9em;
-    list-style: none;
-
-    @media only screen and (min-width: $desktop-view) {
-      width: 33%;
-    }
-  }
-
   @media only screen and (min-width: $desktop-view) {
     display: flex;
     justify-content: space-between;
     height: 100%;
-  }
-}
-
-.social-media {
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-
-  padding: 25px 0 50px;
-  width: 35%;
-  
-  font-size: 1.2em;
-  color: $neutral-one;
-
-  @media only screen and (min-width: $desktop-view) {
-    width: 33%;
-    justify-content: center;
-    margin: 0;
-    padding: 25px 0;
   }
 }
 
@@ -67,9 +38,5 @@
 
     flex-wrap: wrap;
     text-align: left;
-  }
-
-  .fab {
-    margin: auto 10px;
   }
 }

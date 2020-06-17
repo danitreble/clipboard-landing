@@ -45,39 +45,8 @@ body {
   }
 }
 
-.title--header {
-  padding: 0 25px 25px;
-  font-size: 1.7em;
-}
-
-.subtitle--header {
-  padding: 0 22px 50px;
-}
-
-@media only screen and (min-width: 1440px) {
-  .subtitle--header {
-    width: 50%;
-    margin: 0 auto;
-  }
-}
-
 .snippets {
   margin-bottom: 195px;
-}
-
-.title--main {
-  padding: 0 35px 10px;
-}
-
-.subtitle--main {
-  padding: 0 25px 50px;
-}
-
-@media only screen and (min-width: 1440px) {
-  .subtitle--main {
-    width: 50%;
-    margin: 0 auto;
-  }
 }
 
 .main__image-container {
@@ -113,14 +82,6 @@ body {
     text-align: left;
     margin-left: 80px;
   }
-  .title--desktop-snippet {
-    padding: 0 0 10px;
-  }
-  .subtitle--desktop-snippet {
-    margin: 0 0 40px;
-    padding: 0 0 10px;
-    width: 60%;
-  }
   .image-container--snippet {
     width: 50%;
   }
@@ -147,10 +108,6 @@ body {
             justify-content: center;
     width: 80%;
     margin: 0 auto;
-  }
-  .subtitle--desktop-tools {
-    width: 80%;
-    padding: 0;
   }
 }
 
@@ -200,18 +157,6 @@ body {
   margin: 50px 0;
 }
 
-.footer__links {
-  margin-bottom: 25px;
-  font-size: 0.9em;
-  list-style: none;
-}
-
-@media only screen and (min-width: 1440px) {
-  .footer__links {
-    width: 33%;
-  }
-}
-
 @media only screen and (min-width: 1440px) {
   .footer {
     display: -webkit-box;
@@ -221,31 +166,6 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
     height: 100%;
-  }
-}
-
-.social-media {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 25px 0 50px;
-  width: 35%;
-  font-size: 1.2em;
-  color: #4c545d;
-}
-
-@media only screen and (min-width: 1440px) {
-  .social-media {
-    width: 33%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: 0;
-    padding: 25px 0;
   }
 }
 
@@ -271,9 +191,6 @@ body {
         flex-wrap: wrap;
     text-align: left;
   }
-  .fab {
-    margin: auto 10px;
-  }
 }
 
 .button {
@@ -286,6 +203,7 @@ body {
   color: white;
   border-radius: 50px;
   border: none;
+  cursor: pointer;
 }
 
 .button--ios {
@@ -308,5 +226,107 @@ body {
     margin: 0 5px;
     width: 225px;
   }
+}
+
+.title--header {
+  padding: 0 25px 25px;
+  font-size: 1.7em;
+}
+
+.subtitle--header {
+  padding: 0 22px 50px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .subtitle--header {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.title--main {
+  padding: 0 35px 10px;
+}
+
+.subtitle--main {
+  padding: 0 25px 50px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .subtitle--main {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .title--desktop-snippet {
+    padding: 0 0 10px;
+  }
+  .subtitle--desktop-snippet {
+    margin: 0 0 40px;
+    padding: 0 0 10px;
+    width: 60%;
+  }
+  .subtitle--desktop-tools {
+    width: 80%;
+    padding: 0;
+  }
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 0 50px;
+  width: 35%;
+  font-size: 1.2em;
+  color: #4c545d;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1440px) {
+  .social-media {
+    width: 33%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    padding: 25px 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .fab {
+    margin: auto 10px;
+    -webkit-transition: color 100ms;
+    transition: color 100ms;
+  }
+  .fab:hover {
+    color: #26baa4;
+  }
+}
+
+.footer__links {
+  margin-bottom: 25px;
+  font-size: 0.9em;
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: color 100ms;
+  transition: color 100ms;
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer__links {
+    width: 33%;
+  }
+}
+
+.footer__links:hover {
+  color: #26baa4;
 }
 /*# sourceMappingURL=main.css.map */

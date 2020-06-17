@@ -19,18 +19,3 @@
     background-image: url("/dist/images/bg-header-desktop.png");
   }
 }
-
-.title--header {
-  padding: 0 25px 25px;
-  font-size: 1.7em;
-}
-
-.subtitle--header {
-  padding: 0 22px 50px;
-
-  @media only screen and (min-width: $desktop-view) {
-    width: 50%;
-    margin: 0 auto;
-  }
-
-}
