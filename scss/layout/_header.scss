@@ -2,6 +2,7 @@
   background-image: url("/dist/images/bg-header-mobile.png");
   background-size: cover;
 
+  padding-bottom: 35px;
   margin-bottom: 150px;
 
   &__logo-container{
@@ -13,6 +14,10 @@
     margin: 0 auto;
     padding: 120px 0 60px;
   }
+
+  @media only screen and (min-width: $desktop-view) {
+    background-image: url("/dist/images/bg-header-desktop.png");
+  }
 }
 
 .title--header {
@@ -22,4 +27,10 @@
 
 .subtitle--header {
   padding: 0 22px 50px;
+
+  @media only screen and (min-width: $desktop-view) {
+    width: 50%;
+    margin: 0 auto;
+  }
+
 }

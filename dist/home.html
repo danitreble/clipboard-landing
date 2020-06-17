@@ -32,18 +32,23 @@
         copy in the cloud, meaning you
         can access your snippets immediately on all your devices. Our Mac and iOS
         apps will help you organize everything.</p>
-      <figure class="main__image-container"><img class="main__image"
-          src="images/image-computer.png" alt="image of a computer" /></figure>
 
-      <h3 class="title  title--main">Quick Search</h3>
-      <p class="subtitle  subtitle--main">Easily search your snippets by content,
-        category, web address, application, and more.</p>
-      <h3 class="title  title--main">iCloud Sync</h3>
-      <p class="subtitle  subtitle--main">Instantly saves and syncs snippets
-        across all your devices.</p>
-      <h3 class="title  title--main">Complete History</h3>
-      <p class="subtitle  subtitle--main">Retrieve any snippets from the first
-        moment you started using the app.</p>
+      <div class="desktop-row">
+        <figure class="main__image-container  image-container--snippet"><img class="main__image  image--snippet"
+            src="images/image-computer.png" alt="image of a computer" /></figure>
+        <div class="desktop-column">
+          <h3 class="title  title--main  title--desktop-snippet">Quick Search</h3>
+          <p class="subtitle  subtitle--main  subtitle--desktop-snippet">Easily search your snippets by content,
+            category, web address, application, and more.</p>
+          <h3 class="title  title--main  title--desktop-snippet">iCloud Sync</h3>
+          <p class="subtitle  subtitle--main  subtitle--desktop-snippet">Instantly saves and syncs snippets
+            across all your devices.</p>
+          <h3 class="title  title--main  title--desktop-snippet">Complete History</h3>
+          <p class="subtitle  subtitle--main  subtitle--desktop-snippet">Retrieve any snippets from the first
+            moment you started using the app.</p>
+        </div>  
+      </div>
+
     </section>
 
     <section class="clipboard">
@@ -60,17 +65,25 @@
       <h2 class="title  title--main">Supercharge your workflow</h2>
       <p class="subtitle  subtitle--main">We’ve got the tools to boost your productivity.</p>
       
-      <img class="icon" src="images/icon-blacklist.svg" alt="icon showing a paper" />  
-      <h3 class="title  title--main">Create blacklists</h3>
-      <p class="subtitle  subtitle--main">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+      <div class="desktop-row--tools">
+        <div class="tools">
+          <img class="icon" src="images/icon-blacklist.svg" alt="icon showing a paper" />  
+          <h3 class="title  title--main  title--desktop-tools">Create blacklists</h3>
+          <p class="subtitle  subtitle--main  subtitle--desktop-tools">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+        </div>
 
-      <img class="icon" src="images/icon-text.svg" alt="icon showing text edit" />  
-      <h3 class="title  title--main">Plain text snippets</h3>
-      <p class="subtitle  subtitle--main">Remove unwanted formatting from copied text for a consistent look.</p>
+        <div class="tools">
+          <img class="icon" src="images/icon-text.svg" alt="icon showing text edit" />  
+          <h3 class="title  title--main  title--desktop-tools">Plain text snippets</h3>
+          <p class="subtitle  subtitle--main  subtitle--desktop-tools">Remove unwanted formatting from copied text for a consistent look.</p>
+        </div>
 
-      <img class="icon" src="images/icon-preview.svg" alt="icon showing a preview eye" />  
-      <h3 class="title  title--main">Sneak preview</h3>
-      <p class="subtitle  subtitle--main">Quick preview of all snippets on your Clipboard for easy access.</p>
+        <div class="tools">
+          <img class="icon" src="images/icon-preview.svg" alt="icon showing a preview eye" />  
+          <h3 class="title  title--main  title--desktop-tools">Sneak preview</h3>
+          <p class="subtitle  subtitle--main  subtitle--desktop-tools">Quick preview of all snippets on your Clipboard for easy access.</p>
+        </div>
+      </div>
     </section>
     
     <section class="partners">
@@ -101,7 +114,8 @@
     <footer class="footer">
       <figure class="footer__logo-container"><img class="footer__logo"
         src="images/logo.svg" alt="company logo" /></figure>
-      <nav>
+      
+      <nav class="ul-container">
         <ul class="footer__links-container">
           <li class="footer__links">FAQs</li>
           <li class="footer__links">Contact Us</li>

@@ -25,6 +25,7 @@ body {
 .header {
   background-image: url("/dist/images/bg-header-mobile.png");
   background-size: cover;
+  padding-bottom: 35px;
   margin-bottom: 150px;
 }
 
@@ -38,6 +39,12 @@ body {
   padding: 120px 0 60px;
 }
 
+@media only screen and (min-width: 1440px) {
+  .header {
+    background-image: url("/dist/images/bg-header-desktop.png");
+  }
+}
+
 .title--header {
   padding: 0 25px 25px;
   font-size: 1.7em;
@@ -45,6 +52,13 @@ body {
 
 .subtitle--header {
   padding: 0 22px 50px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .subtitle--header {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 .snippets {
@@ -59,6 +73,13 @@ body {
   padding: 0 25px 50px;
 }
 
+@media only screen and (min-width: 1440px) {
+  .subtitle--main {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
 .main__image-container {
   width: 100%;
 }
@@ -69,8 +90,68 @@ body {
   margin: 0 auto 50px;
 }
 
+@media only screen and (min-width: 1440px) {
+  .desktop-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .desktop-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: left;
+    margin-left: 80px;
+  }
+  .title--desktop-snippet {
+    padding: 0 0 10px;
+  }
+  .subtitle--desktop-snippet {
+    margin: 0 0 40px;
+    padding: 0 0 10px;
+    width: 60%;
+  }
+  .image-container--snippet {
+    width: 50%;
+  }
+  .image--snippet {
+    margin: 0 0 50px -60px;
+    width: 110%;
+  }
+}
+
 .icon {
   margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .tools {
+    width: 100%;
+  }
+  .desktop-row--tools {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .subtitle--desktop-tools {
+    width: 80%;
+    padding: 0;
+  }
 }
 
 .partners {
@@ -79,6 +160,16 @@ body {
 
 .partner-logo {
   margin: 40px 0;
+}
+
+@media only screen and (min-width: 1440px) {
+  .partners {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 85%;
+    margin: 100px auto;
+  }
 }
 
 .download {
@@ -98,6 +189,12 @@ body {
   width: 100%;
 }
 
+@media only screen and (min-width: 1440px) {
+  .footer__logo-container {
+    width: 25%;
+  }
+}
+
 .footer__logo {
   width: 55px;
   margin: 50px 0;
@@ -106,6 +203,25 @@ body {
 .footer__links {
   margin-bottom: 25px;
   font-size: 0.9em;
+  list-style: none;
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer__links {
+    width: 33%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+  }
 }
 
 .social-media {
@@ -120,6 +236,44 @@ body {
   width: 35%;
   font-size: 1.2em;
   color: #4c545d;
+}
+
+@media only screen and (min-width: 1440px) {
+  .social-media {
+    width: 33%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    padding: 25px 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .ul-container {
+    width: 33%;
+  }
+  .footer__links-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100px;
+    width: 100%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-top: 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: left;
+  }
+  .fab {
+    margin: auto 10px;
+  }
 }
 
 .button {
@@ -146,5 +300,13 @@ body {
   border-bottom: 3px solid #4f62da;
   -webkit-box-shadow: 0px 2px 20px rgba(97, 115, 255, 0.6);
           box-shadow: 0px 2px 20px rgba(97, 115, 255, 0.6);
+}
+
+@media only screen and (min-width: 1440px) {
+  .button {
+    display: inline-block;
+    margin: 0 5px;
+    width: 225px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

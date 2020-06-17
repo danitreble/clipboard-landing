@@ -4,6 +4,10 @@
 
   &__logo-container {
     width: 100%;
+
+    @media only screen and (min-width: $desktop-view) {
+      width: 25%;
+    }
   }
 
   &__logo {
@@ -14,6 +18,17 @@
   &__links {
     margin-bottom: 25px;
     font-size: 0.9em;
+    list-style: none;
+
+    @media only screen and (min-width: $desktop-view) {
+      width: 33%;
+    }
+  }
+
+  @media only screen and (min-width: $desktop-view) {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
   }
 }
 
@@ -27,4 +42,34 @@
   
   font-size: 1.2em;
   color: $neutral-one;
+
+  @media only screen and (min-width: $desktop-view) {
+    width: 33%;
+    justify-content: center;
+    margin: 0;
+    padding: 25px 0;
+  }
+}
+
+@media only screen and (min-width: $desktop-view) {
+  .ul-container {
+    width: 33%;
+  }
+  
+  .footer__links-container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    align-items: flex-start;
+
+    margin-top: 50px;
+
+    flex-wrap: wrap;
+    text-align: left;
+  }
+
+  .fab {
+    margin: auto 10px;
+  }
 }

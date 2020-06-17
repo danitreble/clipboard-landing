@@ -23,4 +23,11 @@
     border-bottom: 3px solid $primary-two-dark;
     box-shadow: 0px 2px 20px rgba($primary-two, 0.6);
   }
+
+  @media only screen and (min-width: $desktop-view) {
+    display: inline-block;
+    margin: 0 5px;
+
+    width: 225px;
+  }
 }

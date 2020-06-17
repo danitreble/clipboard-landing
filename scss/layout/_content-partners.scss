@@ -5,3 +5,11 @@
 .partner-logo {
   margin: 40px 0;
 }
+
+@media only screen and (min-width: $desktop-view) {
+  .partners {
+    display: flex;
+    width: 85%;
+    margin: 100px auto;
+  }
+}
