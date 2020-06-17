@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-  background-image: url("/images/bg-header-mobile.png");
+  background-image: url("../images/bg-header-mobile.png");
   background-size: cover;
   padding-bottom: 35px;
   margin-bottom: 150px;
@@ -41,7 +41,7 @@ body {
 
 @media only screen and (min-width: 1440px) {
   .header {
-    background-image: url("/images/bg-header-desktop.png");
+    background-image: url("../images/bg-header-desktop.png");
   }
 }
 
